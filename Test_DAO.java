@@ -18,8 +18,8 @@ public static void main(String[] args){
           System.out.println(e2.getName()+" "+e2.getSal());
    else
        System.out.println("Employee 5 does not exist");
-	if(edao.deleteEmployee(101))
-	   System.out.println("Deleted Sucessfully");
+	if(edao.deleteEmployee(101)){
+	   System.out.println("Deleted Sucessfully");}
 	else
 		System.out.println("Employee 101 does not exist");
 List<Employee> elist=edao.getAllEmployees();
