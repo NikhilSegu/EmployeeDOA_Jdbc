@@ -23,9 +23,9 @@ public static void main(String[] args){
 	else
 		System.out.println("Employee 101 does not exist");
 List<Employee> elist=edao.getAllEmployees();
-for(Employee e: elist){
+for(Employee e: elist)
 System.out.println(e.getId()+" "+e.getName()+" "+e.getSal());		
-}
+
    }
    catch(Exception e){System.out.println(e);}
 }
